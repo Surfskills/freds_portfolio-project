@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Your Website</title>
+    <style>
+        /* Add some basic styles for the navbar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #2bde46;
+            overflow: hidden;
+        }
+        
+        li.nav-item {
+            display: inline-block;
+            margin-left: 100px;
+        }
+        
+        li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li.nav-item a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>About</h1>
-    <h1>Portfolio</h1>
-    <h1>Skills</h1>
-    <h1>Contact</h1>
+    <ul class="navbar">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="skills.html">Skills</a></li>
+        <li class="nav-item"><a href="services.html">Services</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </ul>
 </body>
 </html>
