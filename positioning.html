@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .relative-pos {
+        position: relative;
+        background-color: black;
+        height: 150vh;
+        width: 300px;
+        top: 30px;
+        color: white;
+      }
+      .absolute-pos {
+        position: absolute;
+        background-color: aquamarine;
+        bottom: 0px;
+      }
+      .fixed-pos {
+        position: fixed;
+        bottom: 10px;
+        right: 10;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: orange;
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(rgb(116, 108, 108), green, blue, alpha);
+      }
+      .sticky-pos {
+        position: sticky;
+        background-color: grey;
+        top: 3px;
+        list-style-type: none;
+        justify-content: flex-end;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        gap: 10px;
+      }
+      .sticky-pos {
+        margin-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="sticky-pos">
+      <li>Home</li>
+      <li>About</li>
+      <li>Skills</li>
+      <li>Portfolio</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+
+    <div class="relative-pos">
+      Relative Position
+      <div class="absolute-pos">Absolute Position</div>
+    </div>
+
+    <div class="fixed-pos">+</div>
+  </body>
+</html>
