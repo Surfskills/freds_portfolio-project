@@ -1,0 +1,40 @@
+.goo-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.goo-wrapper .side-nav {
+  width: 250px;
+  height: 100vh;
+}
+.goo-wrapper .side-nav .menu {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.goo-wrapper .side-nav .menu li:hover{
+    background-color: #00c8c8;
+    color: #fff;  
+
+}
+.goo-wrapper .side-nav .menu li {
+color: #00c8c8;
+padding: 10px 10px;
+display: flex;
+align-items: center;
+border-radius: 25px;
+cursor: pointer;
+margin-bottom: 5px;
+
+}
+.styled-image {
+  width: 100px; /* Set the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 10px; /* Add some space around the image */
+}
+.goo-wrapper .side-nav .menu .menu-icon{
+    width: 25px;
+    margin-right: 10px;
+}
+.goo-wrapper .side-nav .menu .menu-active{
+    background-color: #00c8c8;
+    color: #fff;
+}

@@ -1,0 +1,47 @@
+/* POSITIONING */
+.relative-pos {
+    position: relative;
+    background-color: rgb(214, 171, 171);
+    height: 150vh;
+    width: 300px;
+    top: 30px;
+    color: white;
+    z-index: 1;
+  }
+  .absolute-pos {
+    position: absolute;
+    background-color: aquamarine;
+    bottom: 0px;
+  }
+  .fixed-pos {
+    position: fixed;
+    bottom: 10px;
+    right: 10;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(rgb(116, 108, 108), green, blue, alpha);
+  }
+  .sticky-pos {
+    position: sticky;
+    background-color: rgb(78, 186, 32);
+    top: 3px;
+    list-style-type: none;
+    justify-content: flex-end;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    gap: 10px;
+    z-index: 100;
+    margin-left: 1rem;
+    
+  }
